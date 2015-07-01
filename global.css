@@ -1,0 +1,197 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #2C4947;
+  padding-top: 3px;
+}
+
+
+
+#aiga {
+  background-color: #526361;
+  text-align: center;
+}
+
+#register-bird {
+  padding-top: 75px;
+}
+
+#primary {
+  text-align: left;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  margin: 50px;
+  margin-left: 58px;
+}
+
+#primary h2 {
+  color: #39495E;
+}
+
+#primary p {
+  color: #5C6B73;
+}
+
+.part2 {
+  text-align: center;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  margin: 50px;
+}
+
+#top-h2 {
+  padding-top: 50px;
+  border-top: dashed #E1DAD5 2px;
+  margin-bottom: 0px;
+  color: #39495E;
+}
+
+#bottom-h2 {
+  margin-top: 0px;
+  color: #39495E;
+}
+
+.categories {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.categories h3 {
+  color: #639C22;
+}
+
+.categories p {
+  color: #755751;
+}
+
+#creative h3{
+  border-top: solid #DFDFDF 2px;
+  padding-top: 50px;
+}
+
+#technology h3{
+  border-top: solid #DFDFDF 2px;
+  padding-top: 50px;
+}
+
+#kitchen h3{
+  border-top: solid #DFDFDF 2px;
+  padding-top: 50px;
+}
+
+.wood {
+  background-image: url("06-30-css-barcamp/assets/part3/wood-bg.png");
+  padding-bottom: 100px;
+}
+
+#schedule {
+  text-align: center;
+  margin-top: 75px;
+  padding-top: 75px;
+  padding-bottom: 65px;
+}
+
+.events {
+  font-family: "Lucida Bright", Georgia, serif;
+  text-align: center;
+}
+
+.events h1 {
+  color: #F3CE42;
+  font-size: 250%;
+}
+
+.events p {
+  color: #FEFEFE;  
+  font-size: 110%;
+  font-weight: lighter;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.circle {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 70px;
+    height: 70px;
+    padding: 8px;
+    padding: 4px;
+
+    border: 3px solid #D0572B;
+}
+
+.time-font {
+  font-family: "Lucida Bright", Georgia, serif;
+  font-size: 32px;
+  color: #FEFEFE;  
+}
+
+.am-pm {
+  font-family: "Lucida Bright", Georgia, serif;
+  font-size: 14px;
+  color: #FEFEFE; 
+}
+
+.times {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: #FEFEFE;  
+  text-align: center;
+  padding-top: 50px;
+  margin: 20px;
+}
+
+.times p {
+  font-weight: 100;
+}
+
+#fire {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#faq {
+  background-color: #CAECF8;
+  padding-top: 10px;
+}
+
+#faq h1 {
+  text-align: center;  
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;  
+  font-size: 75px;
+  font-weight: bold;
+  color: #8E5B30;
+  margin-bottom: 25px;
+}
+
+#faq ul {
+  list-style: none;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #8E5B30;
+  padding-left: 0;
+}
+
+#faq li {
+  background: url("06-30-css-barcamp/assets/part4/plus-bullet.png") left no-repeat; 
+  padding-left: 30px; 
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+#treehouse {
+  margin-top: 70px;
+  position: relative;
+  top: 5px;
+}
