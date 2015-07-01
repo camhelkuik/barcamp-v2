@@ -11,18 +11,65 @@ body {
 
 header {
   background-color: #2C4947;
-  padding-top: 3px;
+  padding-top: 3px;  
 }
 
+#main-page-bg {
+  height: 450px;
+}
 
+img.responsive {
+        width : 100%; 
+        height: auto; 
+}
+
+#mountains {
+  position: relative;
+}
+
+#lake {
+  z-index: 1;
+  position: absolute;
+  top: 67px;
+  left: 0;
+}
+
+#trees {
+  z-index: 2;
+  position: absolute;
+  top: 67px;
+  left: 0;  
+}
+#hero-logo {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+#date {
+  z-index: 4;
+  position: relative;
+}
 
 #aiga {
   background-color: #526361;
   text-align: center;
+  padding-top: 2px;
+  position: relative;
+  bottom: 4px;
 }
 
-#register-bird {
+#bird {
+  position: absolute;
   padding-top: 75px;
+  top: 900;
+  left: 150px;
+}
+
+#lines {
+  padding-top: 75px;
+  position: relative;
 }
 
 #primary {
@@ -72,6 +119,11 @@ header {
   color: #755751;
 }
 
+.categories img {
+  height: 200px;
+  width: 200px;
+}
+
 #creative h3{
   border-top: solid #DFDFDF 2px;
   padding-top: 50px;
@@ -88,7 +140,7 @@ header {
 }
 
 .wood {
-  background-image: url("06-30-css-barcamp/assets/part3/wood-bg.png");
+  background-image: url("assets/board.jpg");
   padding-bottom: 100px;
 }
 
@@ -97,6 +149,8 @@ header {
   margin-top: 75px;
   padding-top: 75px;
   padding-bottom: 65px;
+  margin-left: 30px;
+  margin-right: 20px;
 }
 
 .events {
@@ -107,13 +161,15 @@ header {
 .events h1 {
   color: #F3CE42;
   font-size: 250%;
+  margin-left: 25px;
+  margin-right: 10px;
 }
 
 .events p {
   color: #FEFEFE;  
   font-size: 110%;
   font-weight: lighter;
-  margin-left: 25px;
+  margin-left: 30px;
   margin-right: 25px;
 }
 
@@ -152,12 +208,18 @@ header {
 
 .times p {
   font-weight: 100;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 #fire {
-  text-align: center;
+  display: block;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 300px;
 }
 
 #faq {
@@ -165,14 +227,11 @@ header {
   padding-top: 10px;
 }
 
-#faq h1 {
-  text-align: center;  
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;  
-  font-size: 75px;
-  font-weight: bold;
-  color: #8E5B30;
-  margin-bottom: 25px;
-}
+#faq-img {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+} 
 
 #faq ul {
   list-style: none;
@@ -184,10 +243,12 @@ header {
 }
 
 #faq li {
-  background: url("06-30-css-barcamp/assets/part4/plus-bullet.png") left no-repeat; 
-  padding-left: 30px; 
+  background: url("assets/plus.png") left no-repeat; 
+  padding-left: 43px; 
   padding-bottom: 25px;
-  padding-top: 25px;
+  padding-top: 26px;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 #treehouse {
