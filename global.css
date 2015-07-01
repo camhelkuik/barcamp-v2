@@ -14,8 +14,9 @@ header {
   padding-top: 3px;  
 }
 
-#main-page-bg {
+#main-page-bg img{
   height: 450px;
+  overflow: hidden;
 }
 
 img.responsive {
@@ -25,11 +26,13 @@ img.responsive {
 
 #mountains {
   position: relative;
+  height: 450px;
 }
 
 #lake {
   z-index: 1;
   position: absolute;
+  height: 450px;
   top: 67px;
   left: 0;
 }
@@ -37,14 +40,17 @@ img.responsive {
 #trees {
   z-index: 2;
   position: absolute;
+  height: 450px;
   top: 67px;
   left: 0;  
 }
-#hero-logo {
+#hero-logo img {
   z-index: 3;
+  height: 260px;
+  width: 100px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 120px;
+  left: 130px;
   
 }
 #date {
@@ -61,21 +67,46 @@ img.responsive {
 }
 
 #bird {
-  position: absolute;
-  padding-top: 75px;
-  top: 900;
-  left: 150px;
+  position: relative;
+  bottom: 125px;
+  left: 160px;
+  height: 50px;
+  width: 50px;
 }
 
 #lines {
-  padding-top: 75px;
-  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.button {
+  	background-color: #6AA135;
+  	border-radius: 28px;
+  	display: inline block;
+  	color:#ffffff;
+    font-family: 'Rokkitt', serif;
+  	font-size:17px;
+    text-decoration: none;
+  	padding:16px 31px;
+    position: absolute;
+    left: 110px;
+    bottom: -90px
+  }
+
+#dollars {
+  color: #6AA135;
+  font-family: 'Rokkitt', serif;
+  font-size: 50px;
+  text-align: center;
 }
 
 #primary {
   text-align: left;
-  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  font-family: 'Rokkitt', serif;
   margin: 50px;
+  margin-top: 0px;
   margin-left: 58px;
 }
 
@@ -89,7 +120,7 @@ img.responsive {
 
 .part2 {
   text-align: center;
-  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  font-family: 'Rokkitt', serif;
   margin: 50px;
 }
 
