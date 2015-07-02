@@ -11,83 +11,138 @@ body {
 
 header {
   background-color: #2C4947;
-  padding-top: 3px;  
+  padding-top: 10px;  
+  width: 100%;
 }
 
-#mountains {
-  background-image: url("assets/mountains.jpg");
-  height: 450px;
-  background-size: cover;
-  background-position: center;
-}
-
-#main-page-bg img{
-  height: 450px;
+#main-page {
+  position:relative;
+  height: 600px;
   overflow: hidden;
 }
 
-img.responsive {
-  width : 100%; 
-  height: auto; 
+#mountains {
+  width: 900px;
+  position: absolute;
+  margin-right: -450px;
+  margin-left: -450px;
+  right: 50%;
+  left: 50%;
+  display: block;
+  z-index: 0
 }
 
 #lake {
-  z-index: 1;
+  width: 900px;
   position: absolute;
-  height: 100%;
-  top: 63px;
-  left: 0;
+  margin-right: -450px;
+  margin-left: -450px;
+  right: 50%;
+  left: 50%;
+  display: block;
+  z-index: 1
 }
 
 #trees {
-  z-index: 1;
   position: absolute;
-  height: 100%;
-  top: 63px;
-  left: -25px;
+  width: 900px;
+  margin-left: -450px;
+  margin-right: -450px;
+  display: block;
+  left: 50%;
+  right: 50%;
+  z-index: 2;
 }
 
-#hero-logo img {
+#hero {
+  position: relative;
   z-index: 3;
-  height: 260px;
-  width: 100px;
-  position: absolute;
-  top: 120px;
-  left: 130px;
+  width: 225px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  top: 40px;
 }
 
 #date {
-  z-index: 4;
   position: relative;
+  z-index: 3;
+  width: 150px;
+  top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+#date h2 {
+  font-family: 'Rokkitt', serif;
+  margin-right: auto;
+  margin-left: auto;
+  color: #354A5F;
+  font-size: 28pt;
+  line-height:10px;
+}
+
+#date p{
+  font-family: 'Rokkitt', serif;
+  color: #354A5F;
+  line-height:10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#aiga img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
 }
 
 #aiga {
   background-color: #526361;
-  text-align: center;
-  padding-top: 2px;
   position: relative;
-  bottom: 4px;
+  z-index: 10;
+  height: 75px;
+  margin-top: 20px;
 }
 
-#bird {
-  position: relative;
-  bottom: 125px;
-  left: 160px;
-  height: 50px;
-  width: 50px;
+img.responsive {
+  width : 100%;
+  height: auto;
 }
 
 #lines {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  overflow: hidden;
+  width: 470px;
+  left: 50%;
+  right: 50%;
+  margin-right: -235px;
+  margin-left: -235px;
   margin-top: 50px;
 }
+
+#bird_registration {
+  position: relative;
+  height: 200px;
+}
+
+#bird {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
+
 
 .button {
   background-color: #6AA135;
   border-radius: 28px;
-  display: inline block;
+  display: block;
+  margin: auto;
   color:#ffffff;
   font-family: 'Rokkitt', serif;
   font-size:17px;
@@ -95,19 +150,21 @@ img.responsive {
   padding:16px 31px;
   position: absolute;
   left: 110px;
-  bottom: -90px
+  bottom: -90px;
+  z-index: 10;
   }
 
-#dollars {
-  color: #6AA135;
+.dollars {
   font-family: 'Rokkitt', serif;
+  color: #6AA135;
   font-size: 50px;
+  position: relative;
   text-align: center;
-  margin-top: -90px;
-  margin-right: 15px;
+  display: block;
+  margin-top: 100px;
 }
 
-#primary {
+.primary {
   text-align: left;
   font-family: 'Rokkitt', serif;
   margin: 50px;
@@ -115,11 +172,11 @@ img.responsive {
   margin-left: 58px;
 }
 
-#primary h2 {
+.primary h2 {
   color: #39495E;
 }
 
-#primary p {
+.primary p {
   color: #5C6B73;
 }
 
@@ -179,6 +236,8 @@ img.responsive {
   background-image: url("assets/board.jpg");
   padding-bottom: 100px;
   text-align: center;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 #schedule {
