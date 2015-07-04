@@ -107,6 +107,20 @@ header {
   margin-top: 20px;
 }
 
+@media (min-width: 900px){
+  #mountains {
+    width: 1400px;
+    margin-right: -433px;
+    margin-left: -701px;
+    margin-top: -139px;
+  }
+  #trees {
+    width: 1000px;
+    margin-left: -514px;
+  }
+
+}
+
 img.responsive {
   width : 100%;
   height: auto;
@@ -184,27 +198,23 @@ img.responsive {
 }
 
 .part2 {
-  text-align: center;
   font-family: 'Rokkitt', serif;
   margin: 50px;
 }
 
-#top-h2 {
+#top-h1 {
   padding-top: 50px;
   border-top: dashed #E1DAD5 2px;
   margin-bottom: 0px;
   color: #39495E;
-}
-
-#bottom-h2 {
-  margin-top: 0px;
-  color: #39495E;
+  text-align: center;
+  padding-bottom: 25px;
+  
 }
 
 .categories {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   text-align: center;
-  margin-bottom: 150px;
 }
 
 .categories h3 {
@@ -218,6 +228,22 @@ img.responsive {
 .categories img {
   height: 200px;
   width: 200px;
+}
+
+#entrepreneur {
+  margin-bottom: 150px;
+}
+
+#creative {
+  margin-bottom: 150px;
+}
+
+#technology {
+  margin-bottom: 150px;
+}
+
+#kitchen {
+  margin-bottom: 150px;
 }
 
 #creative h3{
@@ -235,12 +261,81 @@ img.responsive {
   padding-top: 50px;
 }
 
+@media (min-width: 500px){
+  
+  #entrepreneur {
+    float: left;
+    width: 50%;
+  }
+  
+  #entrepreneur h3 {
+    padding-top: 50px;
+  }
+  
+  #creative {
+    float: left;
+    width: 50%;
+  }
+  
+  #creative h3 {
+    border-top: none;
+  }
+  
+  #technology {
+    float: left;
+    width: 50%;
+  }
+  
+  #kitchen {
+    float: left;
+    width: 50%;
+  }
+  
+  .categories {
+    height: 1210px;
+  }
+}
+
+@media (min-width: 900px){
+  #entrepreneur {
+    float: left;
+    width: 25%;
+  }
+  
+  #creative {
+    float: left;
+    width: 25%;
+  }
+  
+  #technology {
+    float: left;
+    width: 25%;
+  }
+  
+  #technology h3 {
+    border-top: none;
+  }
+  
+  #kitchen {
+    float: left;
+    width: 25%;
+  }
+  
+  #kitchen h3 {
+    border-top: none;
+  }
+  
+  .categories {
+    height: 530px;
+  }
+}
+
 .wood {
   background-image: url("assets/board.jpg");
   padding-bottom: 100px;
   text-align: center;
   margin-left: auto;
-  margin-right: 20px;
+  margin-right: auto
 }
 
 #schedule {
@@ -325,9 +420,10 @@ img.responsive {
 }
 
 #faq-img {
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 205px;
 } 
 
 #faq ul {
@@ -349,36 +445,50 @@ img.responsive {
 }
 
 #treehouse {
-  margin-top: 70px;
-  position: relative;
-  top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 450px;
+}
+
+@media (min-width: 700px) {
+
+  #faq-content {
+    float: left;
+    width: 40%;
+  }
+
+  #treehouse {
+    float: left;
+    width: 750px;
+    margin-top: -401px;
+    margin-left: 300px;
+  }
 }
 
 #footer {
   position: relative;
-  height: 600px;
+  height: 700px;
   overflow: hidden;
 }
 
 
 #footer-bg {
-  width: 900px;
   position: absolute;
-  margin-top: -200px;
+  margin-top: -753px;
   margin-right: -450px;
-  margin-left: -450px;
+  margin-left: -543px;
   right: 50%;
   left: 50%;
   display: block;
-  z-index: 0
+  z-index: 0;
 }
 
 #hill {
-  width: 998px;
   position: absolute;
-  margin-top: 338px;
-  margin-right: -450px;
-  margin-left: -502px;
+  margin-top: 221px;
+  margin-right: -460px;
+  margin-left: -853px;
   right: 50%;
   left: 50%;
   display: block;
